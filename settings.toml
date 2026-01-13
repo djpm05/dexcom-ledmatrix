@@ -1,0 +1,8 @@
+CIRCUITPY_WIFI_SSID = "my-wifi-ssid"
+CIRCUITPY_WIFI_PASSWORD = "my-wifi-password"
+DEXCOM_USERNAME = "dexcom-username"
+DEXCOM_PASSWORD = "dexcom-password"
+DEXCOM_REGION = "us"
+HIGH_THRESHOLD = "130"
+LOW_THRESHOLD = "55"
+PANEL_CHANGE_INTERVAL = "15"
