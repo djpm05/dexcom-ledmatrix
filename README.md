@@ -1,11 +1,35 @@
 # dexcom-ledmatrix
 LEDMatrix display for dexcom
-
-Parts:
-16x32 LED Matrix
-Adafruit Matrix Portal M4
-
-Instructions:
-Follow setup guide here: https://learn.adafruit.com/adafruit-matrixportal-m4/overview
-Once the device is connected to your computer, copy the contents of code.py and settings.toml in this repository to your Matrix Portal M4 device. Modify settings.toml to match your WiFi SSID & password, and your Dexcom username and password. Modify the region if not in the US, set your high and low thresholds, and the interval it should switch between the latest glucose value with arrow, and the graph of the last 32 values.
 ![IMG_0990](https://github.com/user-attachments/assets/d94f2c7b-6ed5-4f31-9050-e10af5df492a)
+
+## Parts:
+* 16x32 LED Matrix
+* Adafruit Matrix Portal M4
+
+## Instructions:
+Follow setup guide here: https://learn.adafruit.com/adafruit-matrixportal-m4/overview
+Once the device is connected to your computer, copy the contents of code.py and settings.toml in this repository to your Matrix Portal M4 device.
+
+Modify settings.toml to match your WiFi SSID & password, and your Dexcom username and password.
+
+Modify the region if not in the US, set your high and low thresholds, and the interval it should switch between the latest glucose value with arrow, and the graph of the last 32 values.
+
+### Install the following libraries into the 'lib' directory:
+adafruit_debouncer.mpy\
+adafruit_matrixportal\
+adafruit_portalbase\
+adafruit_esp32spi\
+neopixel.mpy\
+adafruit_requests.mpy\
+adafruit_bus_device\
+adafruit_io\
+adafruit_bitmap_font\
+adafruit_display_text\
+adafruit_minimqtt\
+adafruit_fakerequests.mpy\
+adafruit_lis3dh.mpy\
+adafruit_fancyled\
+adafruit_connection_manager.mpy\
+adafruit_pixelbuf.mpy\
+adafruit_imageload\
+adafruit_ticks.mpy
